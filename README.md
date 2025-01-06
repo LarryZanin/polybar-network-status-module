@@ -2,7 +2,7 @@
 A custom Polybar module that displays network status and allows network management directly from the bar.
 
 
-##FEATURES:
+## FEATURES:
 -    Network Status Display: Shows the current network connection status(icon and info modes).
     Interactive Actions:
 -    Left Click: Toggles network information on/off(icon,ssid, ip, downloading speed, ping to google).
@@ -11,7 +11,7 @@ A custom Polybar module that displays network status and allows network manageme
 -    Easy Setup: Seamlessly integrates into your existing Polybar configuration.
 
 
-##INSTALLATION:
+## INSTALLATION:
     Execute these commands sequentially.
 ####    1)Clone the repository:
         git clone https://github.com/yourusername/polybar-network-status.git
@@ -45,25 +45,25 @@ A custom Polybar module that displays network status and allows network manageme
 ####    5*)Restart Polybar if opened:
         polybar-msg cmd restart
 
-##USAGE:
+## USAGE:
 -    By default this module shows icon of network connection type.
 -    Left Click on the module toggles the network information (icon/info).
 -    Right Click opens a graphical interface for network management (nmtui).
 
-##SCRIPTS USED:
+## SCRIPTS USED:
 -    refresh-network-status.sh: Script for refreshing network information.
 -    network-status.sh: Script for retrieving and outputting the network state.
 -    NetGUI.sh: Script for launching a graphical interface for network management.
 
-##REQUIREMENTS:
+## REQUIREMENTS:
 -    Polybar
 -    NetworkManager
 -    nmcli(for managing NetworkManager)
 -    alacritty (you can change it to your terminal emulator in NetGUI.sh)
 -    some Nerd fonts font (for correct display of glyphs)
 
-##CONTRIBUTION:
+## CONTRIBUTION:
     Contributions are welcome! Feel free to open issues and submit pull requests for suggestions and improvements.
 
-##LICENSE:
+## LICENSE:
     This project is licensed under the MIT License. See LICENSE for details.
